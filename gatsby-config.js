@@ -1,20 +1,19 @@
 module.exports = {
-  pathPrefix: "/gatsby-starter-emilia",
+  pathPrefix: "/nganguyen",
   siteMetadata: {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
-    siteTitle: `Gatsby Starter Emilia`,
-    siteTitleAlt: `Gatsby Starter Emilia | 📷 by AREA44`,
-    siteHeadline: `Gatsby Starter Emilia | 📷 by AREA44`,
-    siteUrl: `https://area44.github.io/gatsby-starter-emilia/`,
-    siteDescription: "📷 from AREA44",
-    siteLanguage: `en`,
-    author: `@area44`,
+    siteTitle: `Nga Nguyen's Photos`,
+    siteTitleAlt: `Nga Nguyen's Photos | 📷 by Nga Nguyen`,
+    siteHeadline: `Nga Nguyen's Photos | 📷 by Nga Nguyen`,
+    siteUrl: `https://itslongnhatnguyen.github.io/nganguyen/`,
+    siteDescription: "📷 by Nga Nguyen",
+    siteLanguage: `vi`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
-        name: `2022`,
+        name: `Nga Nguyen's Photos`,
         socialMedia: [{}],
         location: `Vietnam`,
       },
