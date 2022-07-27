@@ -1,5 +1,4 @@
-name: Deploy Site
-
+name: GitHub Pages Gatsby CI
 on:
   push:
     branches: ["*"]
