@@ -6,14 +6,14 @@ module.exports = {
     siteHeadline: `Nga Nguyen's Photos | 📷 by Nga Nguyen`,
     siteUrl: `https://itslongnhatnguyen.github.io/nganguyen`,
     siteDescription: "📷 by Nga Nguyen",
-    siteLanguage: `vi`,
+    siteImage: `/banner.jpg`,
+    author: `@retro90s`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
         name: `Nga Nguyen's Photos`,
-        socialMedia: [{}],
         location: `Vietnam`,
       },
     },
@@ -31,7 +31,9 @@ module.exports = {
         description: `Photos by Nga Nguyen`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#3182ce`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#3182ce`
         display: `standalone`,
         icons: [
           {
@@ -47,5 +49,5 @@ module.exports = {
         ],
       },
     },
-  ],
+  ].filter(Boolean),
 }
