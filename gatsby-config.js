@@ -14,7 +14,7 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
         name: `Nga Nguyen's Photos`,
-        socialMedia: {[]},
+        socialMedia: [{}],
         showThemeAuthor: false,
         location: `Vietnam`,
       },
