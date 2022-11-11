@@ -7,7 +7,7 @@ Minimalistic portfolio/photography site with masonry grid, page transitions and 
 
 ## Live
 
-- [GitHub Pages](https://itslongnhatnguyen.github.io/nganguyen)
+- [GitHub Pages](https://area44-stack.github.io/nganguyen)
 - [Netlify](https://nganguyenphotos.netlify.app)
 
 ## Installation
