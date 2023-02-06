@@ -7,7 +7,7 @@ const config: GatsbyConfig = {
     siteTitleAlt: `Nga Nguyen's Photos | Nga Nguyen`,
     siteHeadline: `Nga Nguyen's Photos | Nga Nguyen`,
     siteUrl: `https://nganguyenphotos.netlify.app`,
-    siteDescription: "Photos by Nga Nguyen",
+    siteDescription: "A place to keep memories of Nga Nguyen's family",
     siteImage: `/banner.jpg`,
     author: `@torn4dom4n`,
   },
@@ -31,9 +31,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Nga Nguyen`,
+        name: `Nga Nguyen's Photos`,
         short_name: `Nga Nguyen`,
-        description: `Photos by Nga Nguyen`,
+        description: `A place to keep memories of Nga Nguyen's family`,
         start_url: `/`,
         background_color: `#fff`,
         display: `standalone`,
