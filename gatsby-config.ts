@@ -1,13 +1,15 @@
-module.exports = {
+import type { GatsbyConfig, PluginRef } from "gatsby"
+
+const config: GatsbyConfig = {
   siteMetadata: {
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
+    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.ts
     siteTitle: `Nga Nguyen's Photos`,
-    siteTitleAlt: `Nga Nguyen's Photos | 📷 by Nga Nguyen`,
-    siteHeadline: `Nga Nguyen's Photos | 📷 by Nga Nguyen`,
-    siteUrl: `https://itslongnhatnguyen.github.io/nganguyen`,
-    siteDescription: "📷 by Nga Nguyen",
+    siteTitleAlt: `Nga Nguyen's Photos | Nga Nguyen`,
+    siteHeadline: `Nga Nguyen's Photos | Nga Nguyen`,
+    siteUrl: `https://nganguyenphotos.netlify.app`,
+    siteDescription: "Photos by Nga Nguyen",
     siteImage: `/banner.jpg`,
-    author: `@retro90s`,
+    author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -29,14 +31,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `2022 | 📷 by Nga Nguyen`,
-        short_name: `2022`,
+        name: `Nga Nguyen`,
+        short_name: `Nga Nguyen`,
         description: `Photos by Nga Nguyen`,
         start_url: `/`,
         background_color: `#fff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#3182ce`
         display: `standalone`,
         icons: [
           {
@@ -45,12 +44,14 @@ module.exports = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/android-chrome-384x384.png`,
+            sizes: `384x384`,
             type: `image/png`,
           },
         ],
       },
     },
-  ].filter(Boolean),
+  ].filter(Boolean) as Array<PluginRef>,
 }
+
+export default config
