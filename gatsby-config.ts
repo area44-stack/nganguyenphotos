@@ -2,7 +2,6 @@ import type { GatsbyConfig, PluginRef } from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.ts
     siteTitle: `Nga Nguyen's Photos`,
     siteTitleAlt: `Nga Nguyen's Photos | Nga Nguyen`,
     siteHeadline: `Nga Nguyen's Photos | Nga Nguyen`,
