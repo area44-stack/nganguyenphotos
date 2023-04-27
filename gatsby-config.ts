@@ -7,8 +7,7 @@ const config: GatsbyConfig = {
     siteHeadline: `Nga Nguyen's Photos | Nga Nguyen`,
     siteUrl: `https://nganguyenphotos.netlify.app`,
     siteDescription: "A place to keep memories of Nga Nguyen's family",
-    siteImage: `/banner.jpg`,
-    author: `@torn4dom4n`,
+    siteImage: `/og-image.jpg`,
   },
   trailingSlash: `never`,
   plugins: [
